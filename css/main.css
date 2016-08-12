@@ -1,0 +1,216 @@
+*{
+		margin: 0 auto;
+		padding: 0;
+		font-family: "Open-Sans", sans-serif;
+		box-sizing: content-box;
+		}
+body{
+		background-color: #2D2735;
+		box-sizing: content-box;
+} 
+.container{
+		width: 70%;
+		margin: 0 auto; 
+}
+.logo{
+		height: 70px;
+}
+header{
+		background-color: #1C1821;
+}
+nav{
+		padding: 28px 0px;
+		float: right;
+}
+nav a{
+		text-decoration: none;
+		color: white;
+		padding-left: 10px;
+		font-style: italic;
+}
+.iconos i{
+  font-size: 30px;
+  color: white;
+	display: none;
+}
+/*---------seccion1----------*/
+.fondo{
+		background-image: url("../image/header-image.jpg");
+		background-size: cover;
+		height: 460px;
+		margin: 40px 0px;
+}
+.spring{
+		background-color: #1C1821;
+		padding: 30px 0px;
+		color: white;
+		position: relative; 
+		top: 30%;
+		width: 50%; 
+}
+.spring a{
+		font-family:"Courgette";
+		color:  #F7BA6A;
+		font-size: 70px;
+} 
+ul{
+		padding: 10px 0px 20px 0px; 
+}
+ul li{
+		float: left;
+		list-style-type: none;
+		padding-left: 10px;
+		position: relative;
+		left: 18%;
+}
+ul li:hover{
+		color:  #F7BA6A;
+}
+.imageflower{
+	width: 100%;
+		display: flex
+}
+.parte3{
+	padding-left: 0rem;
+}
+.texto{
+	background-color: #1C1821;
+	width: 100%;	
+	padding: 10px 5px;
+}
+.texto h4{
+	font-family:"Courgette";
+	color:  #F7BA6A;
+	padding: 10px 0px;	
+}
+.texto {
+    background-color: #1C1821;
+    width: 100%;
+    padding: 10px 0 20px;
+    text-align: center;
+    color: white;		
+}
+.texto p:hover{
+		color:  #F7BA6A
+}
+.imagefondo, .imageprofile{
+	width: 100%;
+	display:flex; 
+}
+/*------------seccion 2-------------------*/
+.seccion2{
+		margin-top: 30px;
+}
+.padding{
+	padding-left: 0rem;
+}
+.texto2 , .informacion{
+ 	background-color: #1C1821;
+  width: 100%;
+  padding: 0px 0px 20px;
+  text-align: center;
+  color: white;	
+}
+.informacion h4,.texto2 h4{
+	font-family:"Courgette";
+	color:  #F7BA6A; 
+	padding-bottom: 10px;
+} 
+
+.video{
+ display: flex;
+}
+/*------aside---------*/
+.caja5{
+	  background-color: #1C1821;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.namepersona{
+ text-align: center;
+ padding: 10px 0px;	
+ font-weight: 600;
+}
+input{
+	  background-color: #2D2735;
+    color: white;
+    border: transparent;
+    padding: 10px;
+    width: 95%;
+    text-align: left;
+    border-radius: 5px;
+}
+.texto-sub{
+	  padding:10px;
+    text-align: left; 	
+}
+/*----------redes sociales-----*/
+.redes{
+	text-align: left;
+	padding: 0px 10px;	
+}
+i{
+	padding: 10px;
+	border-radius:50%; 	
+	background-color: #2D2735;
+	margin-right: 10px;
+}
+/*-------footer--------*/
+footer{
+		background-color: #1C1821;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+    margin-top: 40px;
+}
+footer span{
+	color:#2D2735; 
+}
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+	.container{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.imagelogo{
+		padding-left: 0rem;
+	}
+	.menu{
+		display: none;
+	}
+	.fondo{
+		height: 365px;
+	}
+	.spring{
+		width: 80%;
+		top: 15%;
+	}
+	ul li {
+    position: relative;
+    padding-right: 4px;
+    padding-left: 0px;
+    left: 5%;
+   }
+	.parte3{
+		padding-left: 0rem;
+		padding-right: 0rem;
+	}
+	.padding{
+	padding-right: 0rem;
+	}
+	.aside2{
+		display: none;
+	}
+	.iconos i{
+   	font-size: 30px;
+    color: white;
+    display: inherit;
+    background-color: transparent;
+    padding: 23px 0px;
+    text-align: right;
+	}
+}
